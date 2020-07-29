@@ -3,4 +3,5 @@
 *.blg
 *.dvi
 *.log
-*.pdf
+root.pdf
+.DS_Store
