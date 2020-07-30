@@ -1,3 +1,4 @@
 ```bash
-docker run --rm -v $PWD:/workdir paperist/alpine-texlive-ja sh -c "pdflatex root; bibtex root; pdflatex root; pdflatex root"
+docker run --rm -it -v $(pwd):/source schickling/latex
+pdflatex root; bibtex root; pdflatex root; pdflatex root
 ```
